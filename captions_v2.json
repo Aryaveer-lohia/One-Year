@@ -1,0 +1,322 @@
+[
+  {
+    "text": "har baar dekh kar bas yahi lagta hai — kitni pyaari ho tum.",
+    "cond": "ANY"
+  },
+  {
+    "text": "My favorite place in the world is just being near you.",
+    "cond": "ANY"
+  },
+  {
+    "text": "bas tum ho, baaki sab bonus hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Even on quiet days, you make everything feel complete.",
+    "cond": "ANY"
+  },
+  {
+    "text": "meri jaan.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Some moments don't need a reason, just you.",
+    "cond": "ANY"
+  },
+  {
+    "text": "tum saath ho toh sab sahi lagta hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Just holding onto this memory forever.",
+    "cond": "ANY"
+  },
+  {
+    "text": "cutu hi ho bilkul.",
+    "cond": "ANY"
+  },
+  {
+    "text": "I look at you and I'm home.",
+    "cond": "ANY"
+  },
+  {
+    "text": "dil se, bas tum.",
+    "cond": "ANY"
+  },
+  {
+    "text": "The world gets quieter when it's just us.",
+    "cond": "ANY"
+  },
+  {
+    "text": "meri laado.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Never stop being this adorable.",
+    "cond": "ANY"
+  },
+  {
+    "text": "kitni cute ho yaarr.",
+    "cond": "ANY"
+  },
+  {
+    "text": "My safest corner.",
+    "cond": "ANY"
+  },
+  {
+    "text": "tumse hi sab kuch shuru hota hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Forever wouldn't be enough time with you.",
+    "cond": "ANY"
+  },
+  {
+    "text": "mai hu na, always.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Just a cozy little memory.",
+    "cond": "ANY"
+  },
+  {
+    "text": "bubu.",
+    "cond": "ANY"
+  },
+  {
+    "text": "How do you manage to look so effortless every single day?",
+    "cond": "ANY"
+  },
+  {
+    "text": "tum ho toh main hu.",
+    "cond": "ANY"
+  },
+  {
+    "text": "My favorite distraction.",
+    "cond": "ANY"
+  },
+  {
+    "text": "hamesha aisey hi rehna.",
+    "cond": "ANY"
+  },
+  {
+    "text": "You make ordinary days feel like poetry.",
+    "cond": "ANY"
+  },
+  {
+    "text": "my princess.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Bas ek nazar dekh lo, saari thakawat khatam.",
+    "cond": "ANY"
+  },
+  {
+    "text": "The prettiest part of my daily routine.",
+    "cond": "ANY"
+  },
+  {
+    "text": "meri pyaari munchkin.",
+    "cond": "ANY"
+  },
+  {
+    "text": "No place I'd rather be.",
+    "cond": "ANY"
+  },
+  {
+    "text": "har din tumse thoda aur pyaar ho jaata hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Just you being you.",
+    "cond": "ANY"
+  },
+  {
+    "text": "baby.",
+    "cond": "ANY"
+  },
+  {
+    "text": "Softest memory of all.",
+    "cond": "ANY"
+  },
+  {
+    "text": "kitna sukoon hai isme.",
+    "cond": "ANY"
+  },
+  {
+    "text": "My sweet little munchkin.",
+    "cond": "ANY"
+  },
+  {
+    "text": "itni pyaari kaise ho sakti ho?",
+    "cond": "ANY"
+  },
+  {
+    "text": "Just us being us.",
+    "cond": "ANY"
+  },
+  {
+    "text": "har moment tumhare saath special hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "My whole heart.",
+    "cond": "ANY"
+  },
+  {
+    "text": "cutie pie.",
+    "cond": "ANY"
+  },
+  {
+    "text": "You have no idea how much I love this photo.",
+    "cond": "ANY"
+  },
+  {
+    "text": "bas tumhari yaad aati rehti hai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "A little piece of magic.",
+    "cond": "ANY"
+  },
+  {
+    "text": "shubh aur sachai.",
+    "cond": "ANY"
+  },
+  {
+    "text": "That smile right here? My favorite thing in the universe.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "jab tum muskurati ho na, baaki sab bhool jaata hu.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "Your laugh literally fixes my worst days.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "yeh wali smile pe toh dil haar gaya tha.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "Pure joy, captured forever.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "itni pyaari smile kitni baar dekhu?",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "Never change that beautiful laugh, bubu.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "aisey hi hansti raha karo hamesha.",
+    "cond": "HER_SMILING"
+  },
+  {
+    "text": "Look at my princess! Absolute perfection.",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "itni sundar kaise ho tum?",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "My girl looking gorgeous as always.",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "nazar na lage meri laado ko.",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "Effortless grace.",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "bas dekhte hi rehne ka mann karta hai.",
+    "cond": "HER_SOLO"
+  },
+  {
+    "text": "Out in the open, but all I can look at is you.",
+    "cond": "SCENIC"
+  },
+  {
+    "text": "hawaayein, lighting, aur tum — perfect setup.",
+    "cond": "SCENIC"
+  },
+  {
+    "text": "Dressed up and making memories together.",
+    "cond": "SCENIC"
+  },
+  {
+    "text": "kitna pyaraview hai, par tumse jyada nahi.",
+    "cond": "SCENIC"
+  },
+  {
+    "text": "Walking through life together, step by step.",
+    "cond": "SCENIC"
+  },
+  {
+    "text": "Right where I belong — in your arms.",
+    "cond": "COUPLE"
+  },
+  {
+    "text": "tum aur main, aagosh mein.",
+    "cond": "COUPLE"
+  },
+  {
+    "text": "Wrapped around you, total peace.",
+    "cond": "COUPLE"
+  },
+  {
+    "text": "hamesha aisey hi saath rehna hai.",
+    "cond": "COUPLE"
+  },
+  {
+    "text": "Closest thing to absolute paradise.",
+    "cond": "COUPLE"
+  },
+  {
+    "text": "Good times with our favorite people!",
+    "cond": "GROUP"
+  },
+  {
+    "text": "yaaron ke saath, par dhyaan tum par hi tha.",
+    "cond": "GROUP"
+  },
+  {
+    "text": "The best crew and my favorite girl right there.",
+    "cond": "GROUP"
+  },
+  {
+    "text": "shor mein bhi mera dhyaan tumpe hai.",
+    "cond": "GROUP"
+  },
+  {
+    "text": "Memories made with great company.",
+    "cond": "GROUP"
+  },
+  {
+    "text": "Late night calls, peeling apples, and warm blanket talks.",
+    "cond": "CALL_INDOOR"
+  },
+  {
+    "text": "screen ke aar paar bhi itna pyaar.",
+    "cond": "CALL_INDOOR"
+  },
+  {
+    "text": "Cozy indoor vibes with my cutie.",
+    "cond": "CALL_INDOOR"
+  },
+  {
+    "text": "raat ke baj gaye do, par baatein khatam nahi hoti.",
+    "cond": "CALL_INDOOR"
+  },
+  {
+    "text": "Screen screenshot, but full heart.",
+    "cond": "CALL_INDOOR"
+  }
+]

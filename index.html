@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story So Far — Aryaveer & Bhoomika</title>
+    
+    <!-- Open Graph Meta Tags for Sharing -->
+    <meta property="og:title" content="Our Story So Far — Aryaveer & Bhoomika ♥">
+    <meta property="og:description" content="A digital scrapbook celebrating one magical year of Aryaveer and Bhoomika.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/photos/WhatsApp Image 2026-07-28 at 11.34.40 PM.jpeg">
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Falling Rose Petals Canvas/Container -->
+    <div id="rose-petals-container" aria-hidden="true"></div>
+
+    <!-- Floating Background Decorator SVGs -->
+    <div class="decorations-container" aria-hidden="true">
+        <svg class="doodle doodle-rose-left" viewBox="0 0 100 100" fill="none" stroke="#C2483F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50,30 C45,15 25,20 30,35 C35,50 50,60 50,60 C50,60 65,50 70,35 C75,20 55,15 50,30 Z"/>
+            <path d="M42,28 C45,22 55,22 58,28 C62,35 50,45 50,45 C50,45 38,35 42,28 Z"/>
+            <path d="M50,60 C48,75 40,88 35,95 M50,65 C58,72 70,78 78,82 M50,75 C40,82 25,85 18,87"/>
+        </svg>
+
+        <svg class="doodle doodle-rose-right" viewBox="0 0 100 100" fill="none" stroke="#E8A6A0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50,30 C45,15 25,20 30,35 C35,50 50,60 50,60 C50,60 65,50 70,35 C75,20 55,15 50,30 Z"/>
+            <path d="M42,28 C45,22 55,22 58,28 C62,35 50,45 50,45 C50,45 38,35 42,28 Z"/>
+            <path d="M50,60 C50,80 55,95 55,95"/>
+        </svg>
+    </div>
+
+    <!-- 3.1 — HERO / LANDING SECTION -->
+    <header class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Aryaveer & Bhoomika</h1>
+            <p class="hero-tagline">Our Story So Far • <span class="highlight-text">One Year ♥</span></p>
+
+            <!-- Countdown Timer Container -->
+            <div class="countdown-wrapper">
+                <p class="countdown-intro">We've been writing our story together for...</p>
+                <div class="timer-grid" id="countdown-timer">
+                    <div class="timer-card">
+                        <span class="timer-num" id="days">000</span>
+                        <span class="timer-label">Days</span>
+                    </div>
+                    <div class="timer-card">
+                        <span class="timer-num" id="hours">00</span>
+                        <span class="timer-label">Hours</span>
+                    </div>
+                    <div class="timer-card">
+                        <span class="timer-num" id="minutes">00</span>
+                        <span class="timer-label">Minutes</span>
+                    </div>
+                    <div class="timer-card">
+                        <span class="timer-num" id="seconds">00</span>
+                        <span class="timer-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#moments" class="scroll-indicator" aria-label="Scroll down to key moments">
+                <span class="scroll-text">Explore Our Journey</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- ROSE SPRIG DIVIDER -->
+    <div class="rose-divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <svg class="rose-sprig" viewBox="0 0 40 40" fill="none" stroke="#C2483F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 8 C16 4 12 8 15 13 C18 18 20 20 20 20 C20 20 22 18 25 13 C28 8 24 4 20 8 Z"/>
+            <path d="M20 20 V34 M20 24 L14 28 M20 28 L26 32"/>
+        </svg>
+        <span class="divider-line"></span>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- 3.2 — THE MOMENTS THAT MATTER -->
+        <section class="moments-section" id="moments">
+            <div class="section-header">
+                <span class="handwritten-tag">Milestones of Our Love</span>
+                <h2 class="section-title">The Moments That Matter</h2>
+                <p class="section-desc">Three chapter titles in our favorite fairytale.</p>
+            </div>
+
+            <div class="moments-grid">
+                <article class="moment-card">
+                    <div class="moment-header">
+                        <div class="moment-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#C2483F" stroke-width="2">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#F7C9C0" fill-opacity="0.5"/>
+                            </svg>
+                        </div>
+                        <span class="moment-date">29th July 2025</span>
+                    </div>
+                    <h3 class="moment-title">Where It All Began</h3>
+                    <p class="moment-caption">Jab mila tha tujhse to pta nahi tha ki is zindagi ke sabse pyaare lamhe tere sang hi bitaunga<br>ab bs ek hi wada hai meri jaan bs tera hu or bs tere hu tere siwae kisi ka nahi banna chahunga</p>
+                </article>
+
+                <article class="moment-card">
+                    <div class="moment-header">
+                        <div class="moment-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#C2483F" stroke-width="2">
+                                <circle cx="12" cy="12" r="9" fill="#FFF8F0"/>
+                                <path d="M12 7v5l3 3" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <span class="moment-date">25th January 2026</span>
+                    </div>
+                    <h3 class="moment-title">Official, In Front of Everyone</h3>
+                    <p class="moment-caption">ofcorse ik im dating the most beautiful girl inthis planet and the most kind hearted women ever made</p>
+                </article>
+
+                <article class="moment-card moment-featured">
+                    <div class="moment-header">
+                        <div class="moment-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#C2483F" stroke-width="2">
+                                <path d="M12 2C9 2 7 4 8 7C9 10 12 12 12 12C12 12 15 10 16 7C17 4 15 2 12 2Z" fill="#C2483F"/>
+                                <path d="M12 12V22M12 15L8 18M12 17L16 20"/>
+                            </svg>
+                        </div>
+                        <span class="moment-date">The Proposal</span>
+                    </div>
+                    <h3 class="moment-title">A Ring, Roses & The Mountains</h3>
+                    <p class="moment-caption">bs mai tu or tera dream proposal ye to bs shuruwat thi meri jaan abhi bs proposal complete kara hai aage saari dreams come true krke dikhaunga meri jaan</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ROSE SPRIG DIVIDER -->
+        <div class="rose-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <svg class="rose-sprig" viewBox="0 0 40 40" fill="none" stroke="#C2483F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 8 C16 4 12 8 15 13 C18 18 20 20 20 20 C20 20 22 18 25 13 C28 8 24 4 20 8 Z"/>
+                <path d="M20 20 V34 M20 24 L14 28 M20 28 L26 32"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- 3.3 — OUR GALLERY (MAIN EVENT) -->
+        <section class="gallery-section" id="gallery">
+            <div class="section-header">
+                <span class="handwritten-tag">167 Memories & Counting</span>
+                <h2 class="section-title">Our Gallery</h2>
+                <p class="section-desc">Every smile, every glance, every unrepeatable second captured forever.</p>
+            </div>
+
+            <!-- MASONRY PHOTO SCRAPBOOK GRID -->
+            <div class="gallery-masonry" id="gallery-grid">
+                <!-- Dynamically Populated by script.js -->
+            </div>
+        </section>
+
+        <!-- ROSE SPRIG DIVIDER -->
+        <div class="rose-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <svg class="rose-sprig" viewBox="0 0 40 40" fill="none" stroke="#C2483F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 8 C16 4 12 8 15 13 C18 18 20 20 20 20 C20 20 22 18 25 13 C28 8 24 4 20 8 Z"/>
+                <path d="M20 20 V34 M20 24 L14 28 M20 28 L26 32"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- 3.4 — MOONS THAT COMPLETE EACH OTHER -->
+        <section class="moon-section" id="moons">
+            <div class="section-header">
+                <span class="handwritten-tag">Written in the stars</span>
+                <h2 class="section-title">Moons That Complete Each Other</h2>
+            </div>
+
+            <div class="moon-stage" id="moon-stage" aria-label="Two crescent moons animating together into one full moon">
+                <!-- Left crescent — Aryaveer (born 30 Sep) -->
+                <div class="moon-wrapper moon-left" id="moon-left">
+                    <svg class="moon-svg" viewBox="0 0 200 200">
+                        <defs>
+                            <radialGradient id="moonGradLeft" cx="65%" cy="40%" r="60%">
+                                <stop offset="0%" stop-color="#FFF8F0"/>
+                                <stop offset="60%" stop-color="#F7C9C0"/>
+                                <stop offset="100%" stop-color="#E8A6A0"/>
+                            </radialGradient>
+                            <filter id="moonGlowLeft" x="-30%" y="-30%" width="160%" height="160%">
+                                <feGaussianBlur stdDeviation="6" result="blur"/>
+                                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <!-- Full circle -->
+                        <circle cx="100" cy="100" r="88" fill="url(#moonGradLeft)" filter="url(#moonGlowLeft)" opacity="0.95"/>
+                        <!-- Cutout to create crescent — mask from right side -->
+                        <circle cx="130" cy="100" r="78" fill="#FFF8F0"/>
+                    </svg>
+                    <span class="moon-label">Aryaveer</span>
+                </div>
+
+                <!-- Right crescent — Bhoomika (born 17 Jan) -->
+                <div class="moon-wrapper moon-right" id="moon-right">
+                    <svg class="moon-svg" viewBox="0 0 200 200">
+                        <defs>
+                            <radialGradient id="moonGradRight" cx="35%" cy="40%" r="60%">
+                                <stop offset="0%" stop-color="#FFF8F0"/>
+                                <stop offset="60%" stop-color="#F7C9C0"/>
+                                <stop offset="100%" stop-color="#C2483F"/>
+                            </radialGradient>
+                            <filter id="moonGlowRight" x="-30%" y="-30%" width="160%" height="160%">
+                                <feGaussianBlur stdDeviation="6" result="blur"/>
+                                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <circle cx="100" cy="100" r="88" fill="url(#moonGradRight)" filter="url(#moonGlowRight)" opacity="0.95"/>
+                        <!-- Cutout from left to create right-facing crescent -->
+                        <circle cx="70" cy="100" r="78" fill="#FFF8F0"/>
+                    </svg>
+                    <span class="moon-label">Bhoomika</span>
+                </div>
+
+                <!-- Full moon revealed after merge -->
+                <div class="full-moon" id="full-moon" aria-hidden="true">
+                    <svg viewBox="0 0 200 200">
+                        <defs>
+                            <radialGradient id="fullMoonGrad" cx="40%" cy="35%" r="65%">
+                                <stop offset="0%" stop-color="#FFFDF9"/>
+                                <stop offset="45%" stop-color="#F7C9C0"/>
+                                <stop offset="75%" stop-color="#E8A6A0"/>
+                                <stop offset="100%" stop-color="#C2483F"/>
+                            </radialGradient>
+                            <filter id="fullMoonGlow" x="-40%" y="-40%" width="180%" height="180%">
+                                <feGaussianBlur stdDeviation="10" result="blur"/>
+                                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <circle cx="100" cy="100" r="90" fill="url(#fullMoonGrad)" filter="url(#fullMoonGlow)"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Caption revealed after merge -->
+            <div class="moon-caption-wrapper" id="moon-caption">
+                <p class="moon-poem">
+                    desteniy kehete hai ise meri jaan<br>jo do log ek doosre ke liye bane hote hai ek din mil hi jaate hai and jab milte hai to puri duniya unhe alag nahi kr sakti meri jaan
+                </p>
+                <span class="moon-hearts">♥ ♥ ♥</span>
+            </div>
+        </section>
+
+        <!-- ROSE SPRIG DIVIDER -->
+        <div class="rose-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <svg class="rose-sprig" viewBox="0 0 40 40" fill="none" stroke="#C2483F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 8 C16 4 12 8 15 13 C18 18 20 20 20 20 C20 20 22 18 25 13 C28 8 24 4 20 8 Z"/>
+                <path d="M20 20 V34 M20 24 L14 28 M20 28 L26 32"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- 3.5 — LOVE LETTER (CSS ENVELOPE) -->
+        <section class="letter-section" id="letter">
+            <div class="section-header">
+                <span class="handwritten-tag">Only for you</span>
+                <h2 class="section-title">A Letter to You</h2>
+                <p class="section-desc">Click the envelope to open it.</p>
+            </div>
+
+            <div class="envelope-scene">
+                <!-- Envelope wrapper — click to open -->
+                <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open love letter">
+                    <div class="envelope-body">
+                        <!-- Envelope flap (top triangle) -->
+                        <div class="envelope-flap" id="envelope-flap"></div>
+                        <!-- Envelope bottom flaps (decorative) -->
+                        <div class="envelope-flap-left"></div>
+                        <div class="envelope-flap-right"></div>
+                        <!-- Wax seal -->
+                        <div class="wax-seal" id="wax-seal">
+                            <svg viewBox="0 0 60 60" fill="none">
+                                <circle cx="30" cy="30" r="28" fill="#C2483F"/>
+                                <path d="M30 16 C25 16 22 20 24 25 C26 30 30 33 30 33 C30 33 34 30 36 25 C38 20 35 16 30 16 Z" fill="none" stroke="#FFF8F0" stroke-width="2"/>
+                                <path d="M30 33 V44" stroke="#FFF8F0" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- The letter — slides out on open -->
+                    <div class="letter-paper" id="letter-paper">
+                        <div class="letter-lines-bg" aria-hidden="true"></div>
+                        <div class="letter-content">
+                            <div class="letter-body">
+                                <p>HAPPIESSSSTTT ONE MONTH MY CUTE LITTLE PRINCESS</p>
+                                <p>It's been one year and omgggg I can't even expresss the feelings<br>Abhi to bs ek mahina hua hai ek saal hona hai fir das saal<br>Ye hi bola tha na one month pr<br>Aab ek saal ho gaya hai and ek saal se das saal kab honge pata bhi nahi chalega<br>Ladaiya hongi<br>Kabhi tu sahi mai galat kabhi mai galat tu sahi ye to rule hai baby relationship ka 😘<br>This year was just rollercoaster baby full of diffrent unexpected turns and full of thrills and with u it made the year besttttt year till now<br>Han ye baat alag hai jitna mahine nahi hue usse zyada baar to lad chuke hai<br>But but but<br>KNSI BADI BAAT HO GYI<br>Dono sath hai and humesha rahenge meri jaan<br>Tune is normal se Aryaveer ko Mr Lohia bna diya<br>Koi bhi random kapde pehenne waale ko style sikha diya<br>Jo band bs aalas jaanta tha us bande ko tune kamaane ki motivation de di ki kamaunga fir tere sath bohot jagah ghummi hai tera hath bhi to maangna hai<br>Apart from all of that I have seen each and every side of urs my baby gussa ladaku chidchidi roti hui hasti hui or ohooooo hasti hui teri smail mai bta Raha hu kisi din katal kar degi Teri ye deadly smile<br>Or teri ankheeee 🫠🫠🫠🫠🫠🫠🫠🫠 shayad kabhi in ankho Mai jesa duba hua hu bahar na aa saku<br>Chalo thik hai jab khush hoti hai to pyaari lagti hai but yaarrrrrrr koi tujhe rote hue dekh le<br>Mai bta Raha hu oscar mil jae teri cutnesss ko meri laadoooooo<br>Chaahe kuch ho jae bhoo teri simplicity will always be my fav part nakhre hai no doubt but unhe hi to uthaane ke liye mai hu meri bbg<br>Tere nakhre nahi uthaunga to kya tera bag uthaunga 🙃 jo aap kabhi uthaane nahi dete<br>But yes ek chiz mangunga<br>Yaarrrrrrrr ek saal ho gaya apne hath ki bani maggie kab khaegi 😭😭😭😭😭<br>My babyyyy my cutiiiii pieeeeeeeeeeeee<br>I love u more than I could ever expressss my baby<br>I'll love u forever till my last breath mera bacchaaaa my bbg my cute little munchkin<br>Ye ek saal meri zindagi ka best saal raha hai<br>Jab tu sath hoti hai to bs ek hi man karta hai ki time ruk jae<br>Jab tujhse milne ka time aata hai to man karta hai ki jaldi jaldi time aage jae or mai isse milu<br>I can never thank u enough baby jo jo tune mere liye kara hai<br>Tune ligit ghar ke chote bete ko sambhaala hai pure saal<br>And apart from that tune ek ese khurafati bacche ko jo kisi ki nahi sunta tha use apne wash mai kar liya hai jo aab tere liye kuch bhi kr sakta hai<br>Jo bs Tu bs thoda uneasy feel kare to tension le leta hai<br>(Han ye baat alag hai use stress lete hi neend aa jaati hai 😭 ya wo hadd se zyada busy hota hai MR BUSY FOR A REASON MY BABY)<br>I LOVE U MY BABY MY CUTUUU MY BUBU MY BHOOO MY LIFELINE MY SOURCE OF POWER MY EVERYTHING MY CUTIE PIEEEEEEEE MY PRINCESS 😘😘😘😘😘😘😘😘😘😘<br>I love u infinite my baby 😘😘😘😘😘😘😘😘😘😘<br>May god always bless our relationship and be with us<br>Thankyou sooo sooo much mera bacchaa for everything<br>One promise from my side mera bacchaaaa<br>I will always and forever be yours till death sets us apart 😘😘😘😘😘😘🥰🥰🥰🥰🥰</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="envelope-hint" id="envelope-hint">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E8A6A0" stroke-width="2"><path d="M15 10l-4 4-4-4"/></svg>
+                    tap to open
+                </p>
+            </div>
+        </section>
+
+        <!-- ROSE SPRIG DIVIDER -->
+        <div class="rose-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <svg class="rose-sprig" viewBox="0 0 40 40" fill="none" stroke="#C2483F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 8 C16 4 12 8 15 13 C18 18 20 20 20 20 C20 20 22 18 25 13 C28 8 24 4 20 8 Z"/>
+                <path d="M20 20 V34 M20 24 L14 28 M20 28 L26 32"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- 3.6 — CLOSING -->
+        <section class="closing-section" id="closing">
+            <!-- Big rose SVG backdrop -->
+            <svg class="closing-rose-bg" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+                <path d="M200,120 C180,60 100,80 120,140 C140,200 200,240 200,240 C200,240 260,200 280,140 C300,80 220,60 200,120 Z" stroke="#E8A6A0" stroke-width="2" opacity="0.3"/>
+                <path d="M175,115 C185,90 215,90 225,115 C240,145 200,175 200,175 C200,175 160,145 175,115 Z" stroke="#C2483F" stroke-width="1.5" opacity="0.25"/>
+                <path d="M200,240 C195,300 165,360 140,380 M200,260 C230,285 285,300 320,325" stroke="#B8C9A8" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+            </svg>
+
+            <div class="closing-content">
+                <div class="closing-heart" aria-hidden="true">♥</div>
+                <h2 class="closing-title">Here's to many more,</h2>
+                <p class="closing-sub">meri jaan</p>
+                <p class="closing-message">One year of you — of us — has been the greatest gift. May every year after this one be softer, warmer, and fuller of everything we've only just begun.</p>
+                <div class="closing-names">Aryaveer & Bhoomika · Est. 29 July 2025</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog">
+        <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous Photo">&#10094;</button>
+            <div class="lightbox-polaroid">
+                <div class="lightbox-photo-wrapper">
+                    <img src="" alt="Gallery Photo" id="lightbox-img">
+                </div>
+                <p class="lightbox-caption" id="lightbox-caption"></p>
+                <div class="lightbox-counter" id="lightbox-counter">1 / 167</div>
+            </div>
+            <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next Photo">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- FLOATING MUSIC MINI-PLAYER (persistent, bottom-right corner) -->
+    <div class="music-player-pill" id="music-player-pill" role="region" aria-label="Music Player">
+        <button class="music-btn music-btn-play" id="music-btn-play" aria-label="Play or pause background music">
+            <span class="music-icon" id="music-icon-play">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="music-icon hidden" id="music-icon-pause">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </span>
+        </button>
+
+        <span class="music-track-indicator" id="music-track-indicator" title="Current track">1/2</span>
+
+        <button class="music-btn music-btn-next" id="music-btn-next" aria-label="Next track">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+        </button>
+    </div>
+
+    <!-- Hidden Single Audio Element -->
+    <audio id="bg-audio" preload="metadata"></audio>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
